@@ -1,0 +1,10 @@
+{
+  "domain": "chaptarr",
+  "name": "Chaptarr",
+  "codeowners": ["@Luca-Bachini-Barr"],
+  "config_flow": true,
+  "documentation": "https://github.com/Luca-Bachini-Barr/ha-chaptarr",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}

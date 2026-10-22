@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Chaptarr",
+        "data": { "url": "URL", "api_key": "API key" },
+        "data_description": { "api_key": "Settings → General → Security in Chaptarr" }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid API key"
+    },
+    "abort": { "already_configured": "This Chaptarr instance is already configured" }
+  },
+  "entity": {
+    "binary_sensor": { "health": { "name": "Health" } },
+    "sensor": { "queue": { "name": "Queue" }, "wanted": { "name": "Wanted" } }
+  }
+}
